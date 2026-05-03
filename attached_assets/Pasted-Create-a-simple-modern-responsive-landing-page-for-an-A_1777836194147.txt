@@ -1,0 +1,113 @@
+Create a simple, modern, responsive landing page for an Addiction Recovery Center.
+
+The website should be bilingual: Arabic and English.
+The default language should be Arabic, with a clear language toggle to switch between Arabic and English.
+
+This is a landing page only. No CMS, no dashboard, and no backend are needed.
+
+Branding:
+- Use the uploaded logo in the header and footer.
+- The design should feel trustworthy, calming, professional, supportive, and medically appropriate.
+- Use soft, reassuring colors that match the logo.
+- The Arabic layout should support RTL direction properly.
+- The English layout should support LTR direction.
+
+Page Sections:
+
+1. Header
+- Logo on one side.
+- Navigation links to the main sections.
+- Language switcher: Arabic / English.
+- Clear call-to-action button, such as “اتصل بنا” / “Contact Us”.
+
+2. Hero Section
+- Create a strong hero section for the addiction recovery center.
+- Use a descriptive AI-generated-style image or placeholder image that represents recovery, hope, healing, and support. Avoid dark, depressing, or triggering visuals.
+- Include a headline, short supporting text, and two CTA buttons:
+  - Call Now
+  - WhatsApp
+
+Suggested Arabic headline:
+"رحلتك نحو التعافي تبدأ من هنا"
+
+Suggested English headline:
+"Your Journey to Recovery Starts Here"
+
+3. About Addiction
+Briefly explain the negative effects of addiction in a compassionate and non-judgmental tone.
+Mention that addiction can affect physical health, mental health, relationships, work, and quality of life.
+
+4. Why Treatment Matters
+Explain why professional help is important for addiction recovery.
+Focus on safety, medical supervision, psychological support, relapse prevention, and long-term recovery.
+
+5. Steps of Recovery
+Create a clear section that explains the main stages of addiction recovery:
+- Initial assessment
+- Detoxification if needed
+- Individual treatment plan
+- Psychological and behavioral therapy
+- Family support
+- Relapse prevention
+- Follow-up and aftercare
+
+Display this section using cards or a step-by-step timeline.
+
+6. How the Center Helps
+Briefly explain how the recovery center supports patients through:
+- Professional medical team
+- Safe and private environment
+- Personalized treatment plans
+- Therapy and counseling
+- Continuous support
+- Respect and confidentiality
+
+7. Media Gallery
+Use the uploaded photos and videos of the center in the landing page.
+Create a clean gallery section that can display:
+- Photos of the facility
+- Videos of the center
+- Optional captions
+The media section should look professional and responsive on mobile.
+
+8. Contact Section
+Add a clear contact section with:
+- Phone number for calls
+- WhatsApp number
+- Buttons for “Call Now” and “Message on WhatsApp”
+- Simple contact information layout
+
+Use placeholders for now:
+Call Number: [INSERT CALL PHONE NUMBER]
+WhatsApp Number: [INSERT WHATSAPP NUMBER]
+
+9. Footer
+- Logo
+- Short description
+- Contact buttons
+- Copyright text
+
+Technical Requirements:
+- Build using HTML, CSS, and JavaScript only, unless Replit chooses a simple frontend framework.
+- No CMS or backend.
+- Fully responsive for mobile, tablet, and desktop.
+- Clean, readable code.
+- Smooth scrolling navigation.
+- Bilingual content should switch dynamically when the user changes language.
+- Arabic should be the default language.
+- Use semantic HTML.
+- Optimize for fast loading.
+- Use accessible buttons and readable font sizes.
+
+Content Tone:
+- Compassionate
+- Hopeful
+- Professional
+- Non-judgmental
+- Reassuring
+- Suitable for a medical/recovery center
+
+Important:
+Do not make exaggerated medical claims.
+Do not use frightening or stigmatizing language.
+Focus on hope, recovery, confidentiality, and professional support.

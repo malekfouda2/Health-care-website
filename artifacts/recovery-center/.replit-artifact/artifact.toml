@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Recovery Center Landing Page"
+version = "1.0.0"
+id = "artifacts/recovery-center"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23172
+
+[services.development]
+run = "pnpm --filter @workspace/recovery-center run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/recovery-center", "run", "build" ]
+publicDir = "artifacts/recovery-center/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23172"
+BASE_PATH = "/"

@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "3YB-l9ssOc9Naic0NUhLc"
+uri = "file://artifacts/recovery-center/src/assets/images/hero-bg.png"
+type = "image"
+title = "serene garden courtyard hero"
+
+[[generated]]
+id = "Nc_FfDnDjVFu_QJeYfPvH"
+uri = "file://artifacts/recovery-center/src/assets/images/about.png"
+type = "image"
+title = "doctor consulting patient"
+
+[[generated]]
+id = "FqcmzokCodW9Kh56yAQXz"
+uri = "file://artifacts/recovery-center/src/assets/images/how-we-help.png"
+type = "image"
+title = "medical team in clinic"
+
+[[generated]]
+id = "6brDPMIYwsyYR9SedMxA8"
+uri = "file://artifacts/recovery-center/src/assets/images/gallery-1.png"
+type = "image"
+title = "reception area"
+
+[[generated]]
+id = "eZYFS8SeaFWjaGsvil4-V"
+uri = "file://artifacts/recovery-center/src/assets/images/gallery-2.png"
+type = "image"
+title = "calm therapy room"
+
+[[generated]]
+id = "0OIE6qCnIYIjoqAeXaqEk"
+uri = "file://artifacts/recovery-center/src/assets/images/gallery-3.png"
+type = "image"
+title = "green garden outdoor"
+
+[[generated]]
+id = "dMmF03SxHXYmEdNz3wOBC"
+uri = "file://artifacts/recovery-center/src/assets/images/gallery-4.png"
+type = "image"
+title = "group therapy room"
