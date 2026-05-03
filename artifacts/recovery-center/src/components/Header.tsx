@@ -3,7 +3,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoImg from "@assets/ChatGPT_Image_May_3,_2026,_10_18_21_PM_1777836507773.png";
+import logoImg from "@/assets/images/logo-transparent.png";
 
 export default function Header() {
   const { t, language, setLanguage, dir } = useLanguage();
@@ -60,7 +60,7 @@ export default function Header() {
             <img
               src={logoImg}
               alt={language === "ar" ? "لا للمخدرات" : "No to Drugs"}
-              className="h-12 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
           </a>
 

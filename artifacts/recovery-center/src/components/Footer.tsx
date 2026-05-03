@@ -2,7 +2,7 @@ import React from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoImg from "@assets/ChatGPT_Image_May_3,_2026,_10_18_21_PM_1777836507773.png";
+import logoImg from "@/assets/images/logo-transparent.png";
 
 export default function Footer() {
   const { t, language } = useLanguage();
@@ -17,7 +17,7 @@ export default function Footer() {
             <img
               src={logoImg}
               alt={language === "ar" ? "لا للمخدرات" : "No to Drugs"}
-              className="h-16 w-auto object-contain brightness-0 invert"
+              className="h-28 w-auto object-contain"
             />
             <p className="text-background/70 max-w-sm leading-relaxed">
               {t.footer.description}
