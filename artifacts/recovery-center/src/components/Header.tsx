@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "wouter";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logoImg from "@assets/ChatGPT_Image_May_3,_2026,_10_18_21_PM_1777836507773.png";
 
 export default function Header() {
   const { t, language, setLanguage, dir } = useLanguage();
@@ -57,12 +57,11 @@ export default function Header() {
             className="flex items-center gap-2 group"
             data-testid="link-logo"
           >
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold shadow-sm group-hover:bg-primary/90 transition-colors">
-              مركز
-            </div>
-            <span className="font-bold text-xl text-foreground hidden sm:block">
-              {language === "ar" ? "مركز التعافي" : "Recovery Center"}
-            </span>
+            <img
+              src={logoImg}
+              alt={language === "ar" ? "لا للمخدرات" : "No to Drugs"}
+              className="h-12 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Nav */}

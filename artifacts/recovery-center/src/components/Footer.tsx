@@ -2,6 +2,7 @@ import React from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImg from "@assets/ChatGPT_Image_May_3,_2026,_10_18_21_PM_1777836507773.png";
 
 export default function Footer() {
   const { t, language } = useLanguage();
@@ -13,14 +14,11 @@ export default function Footer() {
           
           {/* Logo & Desc */}
           <div className="flex flex-col items-center md:items-start gap-4">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold">
-                مركز
-              </div>
-              <span className="font-bold text-xl">
-                {language === "ar" ? "مركز التعافي" : "Recovery Center"}
-              </span>
-            </div>
+            <img
+              src={logoImg}
+              alt={language === "ar" ? "لا للمخدرات" : "No to Drugs"}
+              className="h-16 w-auto object-contain brightness-0 invert"
+            />
             <p className="text-background/70 max-w-sm leading-relaxed">
               {t.footer.description}
             </p>
