@@ -17,7 +17,7 @@ export default function Footer() {
             <img
               src={logoImg}
               alt={language === "ar" ? "لا للمخدرات" : "No to Drugs"}
-              className="h-28 w-auto object-contain"
+              className="h-40 w-auto object-contain"
             />
             <p className="text-background/70 max-w-sm leading-relaxed">
               {t.footer.description}
