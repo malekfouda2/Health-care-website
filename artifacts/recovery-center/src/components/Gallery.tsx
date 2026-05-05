@@ -87,7 +87,8 @@ export default function Gallery() {
               <img
                 src={photo.src}
                 alt={language === "ar" ? photo.captionAr : photo.captionEn}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.36]"
+                style={{ transform: "scale(1.28)", transformOrigin: "55% 38%" }}
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
@@ -139,11 +140,17 @@ export default function Gallery() {
               className="max-w-4xl max-h-[85vh] flex flex-col items-center gap-3"
               onClick={(e) => e.stopPropagation()}
             >
-              <img
-                src={photos[lightboxIndex].src}
-                alt={language === "ar" ? photos[lightboxIndex].captionAr : photos[lightboxIndex].captionEn}
-                className="max-w-full max-h-[75vh] object-contain rounded-lg shadow-2xl"
-              />
+              <div
+                className="overflow-hidden rounded-lg shadow-2xl"
+                style={{ maxWidth: "min(90vw, 900px)", maxHeight: "72vh", aspectRatio: "4/3" }}
+              >
+                <img
+                  src={photos[lightboxIndex].src}
+                  alt={language === "ar" ? photos[lightboxIndex].captionAr : photos[lightboxIndex].captionEn}
+                  className="w-full h-full object-cover"
+                  style={{ transform: "scale(1.28)", transformOrigin: "55% 38%" }}
+                />
+              </div>
               <p className="text-white/80 text-sm">
                 {language === "ar" ? photos[lightboxIndex].captionAr : photos[lightboxIndex].captionEn}
                 <span className="text-white/40 mx-2">·</span>
