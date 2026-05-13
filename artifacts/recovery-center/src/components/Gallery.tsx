@@ -9,6 +9,20 @@ import img3 from "@assets/WhatsApp_Image_2026-05-02_at_22.34.58_1777837019451.jp
 import img4 from "@assets/WhatsApp_Image_2026-05-02_at_22.34.59_(1)_1777837019452.jpeg";
 import img5 from "@assets/WhatsApp_Image_2026-05-02_at_22.34.59_1777837019453.jpeg";
 import img6 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_(1)_1777837019454.jpeg";
+import newImg1 from "@assets/470139337_122196550946226058_3251601134650493874_n_1778704005130.jpg";
+import newImg2 from "@assets/470144359_122196551006226058_6271394122305130018_n_1778704005131.jpg";
+import newImg3 from "@assets/470171076_122197652504226058_2452198352122153326_n_1778704005131.jpg";
+import newImg4 from "@assets/470178267_122197652432226058_9217411093511072655_n_1778704005131.jpg";
+import newImg5 from "@assets/470183220_122197652708226058_5768019790162446982_n_1778704005132.jpg";
+import newImg6 from "@assets/470186793_122197652792226058_4775340006993638847_n_1778704005132.jpg";
+import newImg7 from "@assets/470192455_122197652798226058_6510006472516568051_n_1778704005132.jpg";
+import newImg8 from "@assets/470195720_122197652474226058_7815011155501256819_n_1778704005133.jpg";
+import newImg9 from "@assets/470206947_122197652180226058_5428697279112201490_n_1778704005133.jpg";
+import newImg10 from "@assets/470206950_122197652366226058_3883284794811658009_n_1778704005133.jpg";
+import newImg11 from "@assets/692450499_122310149030226058_1660125753918461805_n_1778704005133.jpg";
+import newImg12 from "@assets/694272904_122310148760226058_7566117288550587595_n_1778704005134.jpg";
+import newImg13 from "@assets/694691446_122310148850226058_5683957936864212919_n_1778704005134.jpg";
+import newImg14 from "@assets/696715078_122310149162226058_8376551452989845301_n_1778704005134.jpg";
 import img8 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_(3)_1777837019455.jpeg";
 import img9 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_1777837019455.jpeg";
 import img10 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_(4)_1777837019456.jpeg";
@@ -18,6 +32,20 @@ import img14 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.08_(1)_17778370194
 import img17 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.06_(1)_1777837019460.jpeg";
 
 const photos = [
+  { src: newImg7,  captionAr: "صالة الترفيه",           captionEn: "Entertainment Lounge" },
+  { src: newImg8,  captionAr: "قاعة الاجتماعات",        captionEn: "Meeting Hall" },
+  { src: newImg9,  captionAr: "غرفة المعيشة",           captionEn: "Living Area" },
+  { src: newImg14, captionAr: "قاعة الجلسات الجماعية",  captionEn: "Group Session Room" },
+  { src: newImg11, captionAr: "غرفة الأنشطة",           captionEn: "Activity Room" },
+  { src: newImg4,  captionAr: "صالة الاسترخاء",         captionEn: "Relaxation Lounge" },
+  { src: newImg3,  captionAr: "غرفة الجلوس",            captionEn: "Living Room" },
+  { src: newImg10, captionAr: "منطقة الانتظار",         captionEn: "Waiting Area" },
+  { src: newImg2,  captionAr: "الفناء الخارجي",         captionEn: "Outdoor Courtyard" },
+  { src: newImg6,  captionAr: "ملعب بينج بونج",         captionEn: "Ping Pong Table" },
+  { src: newImg13, captionAr: "غرفة مزدوجة",            captionEn: "Double Room" },
+  { src: newImg12, captionAr: "غرفة مزدوجة حديثة",     captionEn: "Modern Double Room" },
+  { src: newImg5,  captionAr: "غرفة مزدوجة كلاسيكية",  captionEn: "Classic Double Room" },
+  { src: newImg1,  captionAr: "غرفة مشتركة",            captionEn: "Shared Room" },
   { src: img2,  captionAr: "غرفة الانتظار",            captionEn: "Waiting Room" },
   { src: img8,  captionAr: "قاعة الجلسات الجماعية",   captionEn: "Group Session Hall" },
   { src: img10, captionAr: "منطقة الترفيه",            captionEn: "Recreation Area" },
