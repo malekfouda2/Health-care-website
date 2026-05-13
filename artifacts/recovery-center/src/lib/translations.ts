@@ -72,8 +72,8 @@ export const translations = {
       whatsappLabel: "واتساب",
       callNow: "اتصل الآن",
       whatsappBtn: "راسلنا على واتساب",
-      phoneNumber: "+966 50 000 0000",
-      whatsappNumber: "966500000000",
+      phoneNumber: "01010100492",
+      whatsappNumber: "201010100492",
     },
     footer: {
       description:
@@ -156,8 +156,8 @@ export const translations = {
       whatsappLabel: "WhatsApp",
       callNow: "Call Now",
       whatsappBtn: "Message on WhatsApp",
-      phoneNumber: "+966 50 000 0000",
-      whatsappNumber: "966500000000",
+      phoneNumber: "01010100492",
+      whatsappNumber: "201010100492",
     },
     footer: {
       description:
