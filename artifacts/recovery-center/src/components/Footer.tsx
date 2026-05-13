@@ -53,8 +53,19 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-background/10 text-center text-background/50 text-sm">
+        <div className="mt-12 pt-8 border-t border-background/10 text-center text-background/50 text-sm space-y-2">
           <p>{t.footer.copyright}</p>
+          <p>
+            Powered by{" "}
+            <a
+              href="https://malekfouda.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background/70 hover:text-background underline underline-offset-2 transition-colors"
+            >
+              Malek Fouda
+            </a>
+          </p>
         </div>
       </div>
     </footer>
