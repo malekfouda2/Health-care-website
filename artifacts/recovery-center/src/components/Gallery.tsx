@@ -9,23 +9,15 @@ import img3 from "@assets/WhatsApp_Image_2026-05-02_at_22.34.58_1777837019451.jp
 import img4 from "@assets/WhatsApp_Image_2026-05-02_at_22.34.59_(1)_1777837019452.jpeg";
 import img5 from "@assets/WhatsApp_Image_2026-05-02_at_22.34.59_1777837019453.jpeg";
 import img6 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_(1)_1777837019454.jpeg";
-import img7 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_(2)_1777837019454.jpeg";
 import img8 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_(3)_1777837019455.jpeg";
 import img9 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_1777837019455.jpeg";
 import img10 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.00_(4)_1777837019456.jpeg";
 import img11 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.02_1777837019457.jpeg";
 import img12 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.05_1777837019457.jpeg";
-import img13 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.08_1777837019458.jpeg";
 import img14 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.08_(1)_1777837019458.jpeg";
-import img15 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.07_1777837019459.jpeg";
-import img16 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.06_1777837019460.jpeg";
 import img17 from "@assets/WhatsApp_Image_2026-05-02_at_22.35.06_(1)_1777837019460.jpeg";
 
 const photos = [
-  { src: img7,  captionAr: "المبنى من الخارج",       captionEn: "Center Building" },
-  { src: img16, captionAr: "منطقة الاستقبال",         captionEn: "Reception Area" },
-  { src: img15, captionAr: "مكتب الاستقبال",          captionEn: "Front Desk" },
-  { src: img13, captionAr: "مكتب الإدارة",             captionEn: "Management Office" },
   { src: img2,  captionAr: "غرفة الانتظار",            captionEn: "Waiting Room" },
   { src: img8,  captionAr: "قاعة الجلسات الجماعية",   captionEn: "Group Session Hall" },
   { src: img10, captionAr: "منطقة الترفيه",            captionEn: "Recreation Area" },
