@@ -53,6 +53,16 @@ export default function Contact() {
                         <p className="font-semibold text-lg" dir="ltr">+{t.contact.whatsappNumber}</p>
                       </div>
                     </div>
+
+                    <div className="flex items-center gap-4">
+                      <div className="p-3 bg-primary-foreground/10 rounded-full">
+                        <MessageCircle className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <p className="text-primary-foreground/80 text-sm">{t.contact.whatsappLabel} (دولي)</p>
+                        <p className="font-semibold text-lg" dir="ltr">+{t.contact.whatsappNumber2}</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -81,6 +91,17 @@ export default function Contact() {
                   >
                     <MessageCircle className="w-5 h-5" />
                     {t.contact.whatsappBtn}
+                  </Button>
+
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="w-full max-w-sm h-14 text-lg gap-3 bg-[#25D366] text-white border-transparent hover:bg-[#128C7E] hover:text-white shadow-md hover:shadow-lg transition-all"
+                    onClick={() => window.open(`https://wa.me/${t.contact.whatsappNumber2}`, '_blank')}
+                    data-testid="button-contact-whatsapp2"
+                  >
+                    <MessageCircle className="w-5 h-5" />
+                    {t.contact.whatsappBtn2}
                   </Button>
                 </div>
               </div>

@@ -34,10 +34,16 @@ export default function Header() {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     setMobileMenuOpen(false);
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    setTimeout(() => {
+      if (href === "#top") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        const element = document.querySelector(href);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }, 300);
   };
 
   return (
@@ -100,7 +106,7 @@ export default function Header() {
                 const el = document.querySelector("#contact");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
-              className="hidden sm:inline-flex"
+              className="inline-flex"
               data-testid="button-nav-contact"
             >
               {t.nav.contactBtn}

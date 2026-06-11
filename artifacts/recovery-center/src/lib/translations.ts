@@ -74,6 +74,8 @@ export const translations = {
       whatsappBtn: "راسلنا على واتساب",
       phoneNumber: "01010100492",
       whatsappNumber: "201010100492",
+      whatsappNumber2: "4917621928008",
+      whatsappBtn2: "راسلنا على واتساب (دولي)",
     },
     footer: {
       description:
@@ -158,6 +160,8 @@ export const translations = {
       whatsappBtn: "Message on WhatsApp",
       phoneNumber: "01010100492",
       whatsappNumber: "201010100492",
+      whatsappNumber2: "4917621928008",
+      whatsappBtn2: "Message on WhatsApp (International)",
     },
     footer: {
       description:
