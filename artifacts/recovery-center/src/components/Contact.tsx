@@ -1,7 +1,7 @@
 import React from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { motion } from "framer-motion";
-import { Phone, MessageCircle, Mail, MapPin } from "lucide-react";
+import { Phone, MessageCircle, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -63,6 +63,21 @@ export default function Contact() {
                         <p className="font-semibold text-lg" dir="ltr">+{t.contact.whatsappNumber2}</p>
                       </div>
                     </div>
+
+                    <a
+                      href="https://www.facebook.com/share/18nfRYYdjy/?mibextid=wwXIfr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-4 hover:opacity-80 transition-opacity"
+                    >
+                      <div className="p-3 bg-primary-foreground/10 rounded-full">
+                        <Facebook className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <p className="text-primary-foreground/80 text-sm">Facebook</p>
+                        <p className="font-semibold text-lg">صفحتنا على فيسبوك</p>
+                      </div>
+                    </a>
                   </div>
                 </div>
 
