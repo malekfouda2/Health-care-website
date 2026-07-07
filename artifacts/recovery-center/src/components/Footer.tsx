@@ -24,7 +24,7 @@ export default function Footer() {
             </p>
             {/* Social Links */}
             <a
-              href="https://www.facebook.com/share/1CmSmFGx96/?mibextid=wwXIfr"
+              href="https://www.facebook.com/share/1BeVaJC5ko/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-background/60 hover:text-[#1877F2] transition-colors mt-1"
